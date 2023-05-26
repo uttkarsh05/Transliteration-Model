@@ -39,7 +39,5 @@
 
 * 4 Sweeps file for training from scratch and fine tuning for both with and without attention have been provided.
 
-* You can also get attention heatmap for the best attetnion model saved already in attention_models directory.
+* You can also get attention heatmap for the best attention model saved already in attention_models directory.
 
-* 
-* 
