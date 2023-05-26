@@ -1,0 +1,66 @@
+program: train.py
+
+method: bayes
+
+project: Without_Attention
+
+entity: uttakarsh05
+
+metric: 
+  name: Validation Accuracy
+  goal: maximize
+
+parameters:
+
+  cell_type:
+    values: ['gru','lstm']
+
+  n_layers:
+    values: [2]
+
+  encoder_optimizer:
+    values: ['adam','nadam','momentum']
+
+  decoder_optimizer:
+    values: ['adam','nadam','momentum']
+
+  encoder_learning_rate:
+    values: [1e-3,1e-4]
+  
+  encoder_embedding_size:
+    values: [8,16]
+  
+
+  decoder_learning_rate:
+    values: [1e-3,1e-4]
+  
+  decoder_embedding_size:
+    values: [16,32]
+  
+  batch_size:
+    values: [32]
+    
+
+  hidden_size:
+    values: [64,128]
+
+  activation:
+    values: ['relu','elu','selu','tanh']
+
+  bidirectional:
+    values: ['True','False']
+  
+
+
+  dropout:
+    values: [0.1,0.2,0.5]
+
+
+
+  wandb_project:
+    values: ['Without_Attention']
+
+  wandb_entity:
+    values: ['uttakarsh05']
+
+    
