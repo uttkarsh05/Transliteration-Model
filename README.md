@@ -1,4 +1,6 @@
-# Fodl_assignment_3
+# Transliteration Model
+## Report : 
+https://api.wandb.ai/links/uttakarsh05/km1zj8ss
 
 ## Instructions :
 
